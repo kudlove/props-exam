@@ -14,10 +14,6 @@ class Main extends Component {
     });
   };
 
-  onOpenModal = (e, id) => {
-    e.preventDefault();
-    this.modalOpen(id);
-  };
 
 
   render(){
